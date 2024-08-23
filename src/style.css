@@ -100,9 +100,23 @@ a{
     align-items: center;
 }
 
-.call-to-action-modal{
+.call-to-action-modal-container{
     display: flex;
     justify-content: center;
-    flex-basis: 80%;
+    align-items: center;
+}
+
+.call-to-action-modal{
+    background: aqua;
+    width: 480px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-basis: 60%;
+    padding: 30px;
+}
+
+.footer{
+    text-align: center;
 }
 
