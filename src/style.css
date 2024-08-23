@@ -1,3 +1,9 @@
+:root{
+    --white-main-text: #F9FAF8;
+    --dark-background-color: #1F2937;
+    --gray-background-color: #E5E7EB;
+}
+
 html{
     height: 100%;
 }
@@ -30,14 +36,18 @@ a{
     display: flex;
     justify-content: start;
     flex-direction: column;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     flex-grow: 0;
     gap: 50px;
+    background-color: var(--dark-background-color);
 }
 
 .header-logo{
     flex: 1 1 auto;
+    color: var(--white-main-text);
+    font-size: 24px;
+    font-weight: bolder;
 }
 
 .content-main{
@@ -50,6 +60,12 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.content-main-left-title{
+    color: var(--white-main-text);
+    font-weight: bolder;
+    font-size: 48px;
 }
 
 .content-information-title{
@@ -98,6 +114,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--gray-background-color);
 }
 
 .call-to-action-modal-container{
@@ -118,5 +135,6 @@ a{
 
 .footer{
     text-align: center;
+    background-color: var(--dark-background-color);
 }
 
