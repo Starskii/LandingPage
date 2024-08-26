@@ -187,15 +187,38 @@ a{
 }
 
 .left-modal{
+    display: flex;
+    flex: 1 1 auto;
     padding: 20px;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 30%;
+}
+
+.left-modal-title{
+    font-size: 24px;
+    color: var(--white-main-text);
+}
+
+.left-modal-description{
+    font-size: 18px;
+    color: var(--hero-secondary-text);
 }
 
 .right-modal{
+    flex: 1 1 auto;
     padding: 25px;
 }
 
 .right-modal button{
-
+    width: 100px;
+    flex-basis: 30px;
+    border-radius: 12px;
+    border: 1px var(--white-main-text) solid;
+    background-color: var(--refreshing-blue);
+    color: var(--hero-secondary-text);
+    font-weight: bold;
+    padding: 10px;
 }
 
 .footer{
