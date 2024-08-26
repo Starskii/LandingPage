@@ -103,7 +103,8 @@ a{
     background-color: var(--refreshing-blue);
     color: var(--hero-secondary-text);
     font-weight: bold;
-    padding: 10px
+    padding: 10px;
+    border: none;
 }
 
 .content-information{
